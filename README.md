@@ -1,3 +1,3 @@
 # PureTone_HuonKanha
-![Homepage]([images/homepage.png](https://github.com/Huonkanha/PureTone_Huon_Kanha/blob/565d99d4f326237f61b2fffd25db50149513338e/Hero_Section_Img)
+<img width="1897" height="908" alt="Image" src="https://github.com/user-attachments/assets/899d09e0-a512-405f-8499-f3c085a9f17a" />
 
