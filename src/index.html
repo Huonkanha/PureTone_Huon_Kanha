@@ -38,6 +38,78 @@
             backdrop-filter: blur(10px);
             box-shadow: 0 4px 6px -1px rgba(168, 85, 247, 0.2);
         }
+
+        @media (max-width: 480px) {
+            #hero {
+                padding-top: 120px;
+                padding-bottom: 100px;
+            }
+            
+            #hero h1 {
+                line-height: 1.2;
+                margin-bottom: 1rem;
+            }
+            
+            #hero p {
+                font-size: 0.95rem;
+                line-height: 1.5;
+                padding: 0 1rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            #hero .flex {
+                align-items: center;
+            }
+            
+            #hero .flex a {
+                width: auto;
+                display: inline-block;
+                font-size: 0.9rem;
+                padding: 0.75rem 1.5rem;
+            }
+            footer .border-t {
+                text-align: left;
+            }
+        }
+    
+        @media (min-width: 481px) and (max-width: 1024px) {
+            #hero {
+                padding-top: 120px;
+                padding-bottom: 100px;
+                min-height: auto;
+            }
+            
+            #hero .relative.z-10 {
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+            
+            #hero h1 {
+                line-height: 1.2;
+                margin-bottom: 1.5rem;
+            }
+            
+            #hero p {
+                font-size: 1.125rem;
+                line-height: 1.6;
+                padding: 0 2rem;
+                margin-bottom: 2rem;
+            }
+            
+            #hero .flex {
+                align-items: center;
+            }
+            
+            #hero .flex a {
+                width: auto;
+                display: inline-block;
+                font-size: 1rem;
+                padding: 0.875rem 2rem;
+            }
+            footer .border-t {
+                text-align: left;
+            }
+        }
     </style>
 </head>
 <body class="bg-black text-white">
@@ -69,10 +141,10 @@
                     <!-- Mobile Menu -->
                     <div id="mobile-menu" class="hidden absolute top-16 left-0 w-48 bg-black/98 backdrop-blur-lg border border-purple-500/20 rounded-lg shadow-lg shadow-purple-500/20">
                         <div class="px-4 py-4 space-y-1">
-                            <a href="#hero" class="block py-3 px-3 hover:bg-purple-500/20 rounded-lg hover:text-purple-400 transition-colors">Home</a>
-                            <a href="#features" class="block py-3 px-3 hover:bg-purple-500/20 rounded-lg hover:text-purple-400 transition-colors">Albums</a>
-                            <a href="#pricing" class="block py-3 px-3 hover:bg-purple-500/20 rounded-lg hover:text-purple-400 transition-colors">Pricing</a>
-                            <a href="#testimonials" class="block py-3 px-3 hover:bg-purple-500/20 rounded-lg hover:text-purple-400 transition-colors">Reviews</a>
+                            <a href="#" class="block py-3 px-3 hover:bg-purple-500/20 rounded-lg hover:text-purple-400 transition-colors">Home</a>
+                            <a href="#" class="block py-3 px-3 hover:bg-purple-500/20 rounded-lg hover:text-purple-400 transition-colors">Albums</a>
+                            <a href="#" class="block py-3 px-3 hover:bg-purple-500/20 rounded-lg hover:text-purple-400 transition-colors">Pricing</a>
+                            <a href="#" class="block py-3 px-3 hover:bg-purple-500/20 rounded-lg hover:text-purple-400 transition-colors">Reviews</a>
                         </div>
                     </div>
                 </div>
@@ -157,7 +229,7 @@
                     <h3 class="text-xl font-bold mb-1">Chicken Noodle Soup</h3>
                     <p class="text-gray-400">J-Hope</p>
                 </div>
-
+                
             </div>
         </div>
     </section>
